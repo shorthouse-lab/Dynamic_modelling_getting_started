@@ -20,3 +20,8 @@ In this exercise we will:
 - Perform analysis and generate biological insights based on these models
 
 To get started, work with the notebook: "APC_mutation.ipynb"
+
+Before opening the notebook, download all dependencies with conda using
+
+conda env create -f environment.yml
+conda activate quickstart
