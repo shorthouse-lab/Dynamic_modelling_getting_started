@@ -25,3 +25,4 @@ Before opening the notebook, download all dependencies with conda using
 
 conda env create -f environment.yml
 conda activate quickstart
+pip install gseapy
