@@ -23,8 +23,10 @@ To get started, work with the notebook: "APC_mutation.ipynb"
 
 Before opening the notebook, download all dependencies with conda using
 
+```
 conda env create -f environment.yml
 conda activate quickstart
 curl https://sh.rustup.rs -sSf | sh -s -- -y
 export PATH="$PATH:$HOME/.cargo/bin"
 pip install gseapy casq
+```
